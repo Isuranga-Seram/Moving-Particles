@@ -1,0 +1,42 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: clamp(1rem, 5.5vw, 5rem);
+    font-weight: bold;
+    font-family: "Ubuntu", serif;
+
+    &::after{
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 1em;
+        margin-left: 2px;
+        vertical-align: text-bottom;
+        animation-name: blink;
+        animation-duration: 500ms;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+        background-color: black;
+    }
+
+    25% {
+        background-color: blue;
+    }
+
+    80% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+}
