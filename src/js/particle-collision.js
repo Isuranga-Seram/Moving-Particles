@@ -84,4 +84,3 @@ addEventListener('mousemove', (e) => {
 addEventListener('mouseout', () => {
     // cursorElm.style.opacity = 0;
 });
-

@@ -1,4 +1,3 @@
-
 const containerElm = document.createElement('div');
 containerElm.id = "container";
 document.body.append(containerElm);
