@@ -4,12 +4,10 @@
     align-items: center;
     height: 100vh;
 }
-
 h1 {
     font-size: clamp(1rem, 5.5vw, 5rem);
     font-weight: bold;
     font-family: "Ubuntu", serif;
-
     &::after{
         content: "";
         display: inline-block;
@@ -22,17 +20,14 @@ h1 {
         animation-iteration-count: infinite;
     }
 }
-
 @keyframes blink {
     from {
         opacity: 1;
         background-color: black;
     }
-
     25% {
         background-color: blue;
     }
-
     80% {
         opacity: 0;
     }
