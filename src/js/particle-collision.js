@@ -83,6 +83,7 @@ addEventListener('mousemove', (e) => {
 });
 
 addEventListener('touchmove', (e) => {
+    e.preventDefault();
     if (tmrId) clearTimeout(tmrId);
 
     const touch = e.touches[0];
