@@ -79,22 +79,26 @@ addEventListener('mousemove', (e) => {
     cursorElm.style.top = `${e.clientY - cursorElm.offsetHeight / 2}px`;
     tmrId = setTimeout(() => {
         cursorElm.style.opacity = 0;
+        /*if (e.movementX === 0 && e.movementY === 0){
+            cursorElm.style.opacity = 0;
+        }*/
     },2000);
 });
 
 addEventListener('touchmove', (e) => {
-    e.preventDefault();
     if (tmrId) clearTimeout(tmrId);
 
     const touch = e.touches[0];
 
     cursorElm.style.opacity = '1';
-    cursorElm.style.left = `${touch.clientX - cursorElm.offsetWidth / 2}px`;
-    cursorElm.style.top = `${touch.clientY - cursorElm.offsetHeight / 2}px`;
-
+    cursorElm.style.left = `${e.changedTouches[0].clientX - cursorElm.offsetWidth/ 2}px`;
+    cursorElm.style.top = `${e.changedTouches[0].clientY - cursorElm.offsetHeight/ 2}px`;
     tmrId = setTimeout(() => {
         cursorElm.style.opacity = 0;
-    }, 2000);
+        /*if (e.movementX === 0 && e.movementY === 0){
+            cursorElm.style.opacity = 0;
+        }*/
+    },2000);
 });
 
 
