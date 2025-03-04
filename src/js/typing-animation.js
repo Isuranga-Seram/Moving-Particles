@@ -6,8 +6,8 @@ const h1Elm = document.createElement('h1');
 containerElm.append(h1Elm);
 
 const texts = [
-    'Welcome', 'to', 'Direct Entry Program 13',
-    'We are', 'born to code!'
+    'Welcome', 'to', 'the',
+    'Wonderful', 'Sri Lanka!!'
 ];
 
 let i = 0, k = 0, m = 0, reverse = false;
