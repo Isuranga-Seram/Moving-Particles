@@ -83,7 +83,7 @@ Learning about HTML Elements,
 
 <br>
 
-![java-url]  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![javafx][javafx-url]
+![javaScript-url]  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="img/html.png" alt="Description" width="150" height="200">
 <br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![css-url]
 <br><br>
@@ -165,8 +165,6 @@ LinkedIn: [linkedin.com/in/isuranga-seram](linkedin.com/in/isuranga-seram)
 
 
 [moving-particles]: img/moving-particles.png
-[java]: https://www.java.com/en/
-[java-url]: https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png
-[javafx]: https://openjfx.io/
-[javafx-url]: https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/JavaFX_Logo.png/220px-JavaFX_Logo.png
+[javaScript]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[javaScript-url]: img/js.png
 [css-url]: img/css.png
